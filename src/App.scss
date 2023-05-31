@@ -1,0 +1,20 @@
+.App {
+  font-family: Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+.highlight-text {
+  color: cyan;
+}
+
+  .highlight-link {
+    border: 2px solid cyan;
+    border-radius: 4px;
+  }
+

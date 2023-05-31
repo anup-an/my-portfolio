@@ -1,0 +1,47 @@
+.sample-projects {
+  background-color: black;
+  padding: 100px;
+  min-height: 50vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  &__e-commerce {
+    .content {
+      display: flex;
+      .buttons {
+        display: flex;
+        gap: 10px;
+      }
+      .introductory-text{
+        padding-left: 40px;
+        max-width: 800px;
+        img{
+            margin-right: 10px;
+            background-color: white;
+            padding: 4px;
+        }
+      }
+    }
+    img {
+      margin-bottom: 15px;
+    }
+    a {
+      color: cyan;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      span {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .app-button {
+    padding: 5px;
+    background-color: black;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    color: cyan;
+    cursor: pointer;
+  }
+}

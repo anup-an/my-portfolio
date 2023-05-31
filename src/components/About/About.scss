@@ -1,0 +1,24 @@
+.About {
+  font-size: 16px;
+  min-height: 50vh;
+  color: white;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+
+  &__introduction{
+    width: 50%;
+    .highlight-text{
+      color: cyan;
+    }
+  }
+  &__photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 20;
+    overflow: hidden;
+  }
+}
