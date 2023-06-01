@@ -1,24 +1,35 @@
 .sample-projects {
   background-color: black;
-  padding: 100px;
   min-height: 50vh;
   color: white;
+  padding: 60px;
   display: flex;
   align-items: center;
+  @media only screen and (min-width: 1080px) {
+    padding: 100px;
+  }
+  @media only screen and (max-width: 1080px) {
+    margin-top: 20px;
+  }
   &__e-commerce {
     .content {
-      display: flex;
+      @media only screen and (min-width: 1080px) {
+        display: flex;
+      }
       .buttons {
         display: flex;
         gap: 10px;
+        margin-bottom: 20px;
       }
-      .introductory-text{
-        padding-left: 40px;
+      .introductory-text {
+        @media only screen and (min-width: 1080px) {
+          padding-left: 40px;
+        }
         max-width: 800px;
-        img{
-            margin-right: 10px;
-            background-color: white;
-            padding: 4px;
+        img {
+          margin-right: 10px;
+          background-color: white;
+          padding: 4px;
         }
       }
     }
