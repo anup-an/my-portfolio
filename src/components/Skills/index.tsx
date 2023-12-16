@@ -10,21 +10,21 @@ const Skills = () => {
         </li>
         <li>
           <h2 className="highlight-text">Frontend</h2>
-          ReactJS, Redux, VueJS, CSS3, TailwindCSS, Sass
+          ReactJS, Redux, VueJS, CSS3, TailwindCSS, ChakraUI, Sass
         </li>
         <li>
           <h2 className="highlight-text">Backend</h2>
-          ExpressJS and Django
+          ExpressJS, FastAPI and Django
         </li>
       </ul>
       <ul>
         <li>
           <h2 className="highlight-text">Databases</h2>
-          MongoDB and MySQL
+          MongoDB, MySQL and PostgreSQL
         </li>
         <li>
           <h2 className="highlight-text">DevOps</h2>
-          Docker, CI/CD using github actions
+          Docker, Kubernetes, Terraform, AWS (ECS), DigitalOcean(DOKS) and CI/CD
         </li>
         <li>
           <h2 className="highlight-text">Other skills</h2>

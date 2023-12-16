@@ -21,6 +21,12 @@
     .highlight-text {
       color: cyan;
     }
+    .own-description {
+      max-width: 80%;
+      @media only screen and (max-width: 1080px) {
+        max-width: 100%;
+      }
+    }
   }
   &__photo {
     width: 300px;
