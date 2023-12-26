@@ -14,7 +14,7 @@ const Skills = () => {
         </li>
         <li>
           <h2 className="highlight-text">Backend</h2>
-          ExpressJS, FastAPI and Django
+          NodeJS, ExpressJS, FastAPI and Django
         </li>
       </ul>
       <ul>
