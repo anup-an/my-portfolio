@@ -14,7 +14,7 @@ const Skills = () => {
         </li>
         <li>
           <h2 className="highlight-text">Backend</h2>
-          NodeJS, ExpressJS, FastAPI and Django
+          GraphQL, NodeJS, ExpressJS, FastAPI and Django
         </li>
       </ul>
       <ul>
@@ -24,7 +24,7 @@ const Skills = () => {
         </li>
         <li>
           <h2 className="highlight-text">DevOps</h2>
-          Docker, Kubernetes, Terraform, AWS (ECS), DigitalOcean(DOKS) and CI/CD
+          Docker, Kubernetes, Terraform, AWS (ECS), DigitalOcean(DOKS) and CI/CD (Jenkins, Github Actions)
         </li>
         <li>
           <h2 className="highlight-text">Other skills</h2>
