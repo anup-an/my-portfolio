@@ -16,6 +16,10 @@ const Skills = () => {
           <h2 className="highlight-text">Backend</h2>
           GraphQL, NodeJS, ExpressJS, FastAPI and Django
         </li>
+        <li>
+          <h2 className="highlight-text">Testing</h2>
+          Vue Test Utils, Jest, Supertest, Mocha, Chai, Pytest
+        </li>
       </ul>
       <ul>
         <li>
@@ -28,7 +32,7 @@ const Skills = () => {
         </li>
         <li>
           <h2 className="highlight-text">Other skills</h2>
-          Git, Github, Bitbucket, Scrum, Jira
+          Microservices, gRPC, Git, Scrum, Jira
         </li>
       </ul>
     </div>
