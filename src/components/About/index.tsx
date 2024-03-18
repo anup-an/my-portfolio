@@ -1,3 +1,6 @@
+import { BsGithub } from "react-icons/bs";
+import { TbBrandLinkedin } from "react-icons/tb";
+
 import "./About.scss";
 
 const About = () => {
@@ -13,19 +16,26 @@ const About = () => {
           levels, ranging from the implementation of front-end components and
           API endpoints to the comprehensive development of end-to-end features.
         </p>
-        <p className="own-description">
-          You can connect me via e-mail{" "}
-          <strong className="highlight-text">apoudel048@gmail.com</strong> or
-          via linkedIn{" "}
-          <strong>
+        <div className="profile-external-links">
+          <button className="logo-button">
             <a
-              className="highlight-text"
-              href="https://www.linkedin.com/in/anup-poudel-134b29179/"
+              href="https://github.com/anup-an"
+              target="_blank"
+              rel="noreferrer"
             >
-              https://www.linkedin.com/in/anup-poudel-134b29179/
+              <BsGithub color="white" size="30px" />
             </a>
-          </strong>
-        </p>
+          </button>
+          <button className="logo-button">
+            <a
+              href="https://www.linkedin.com/in/anup-poudel-134b29179/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <TbBrandLinkedin color="white" size="35px" />
+            </a>
+          </button>
+        </div>
       </div>
       <div className="About__photo">
         <img alt="My" src="assets/anup-cv-image.jpg" width="300px" />

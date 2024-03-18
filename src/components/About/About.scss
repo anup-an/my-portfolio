@@ -36,3 +36,14 @@
     overflow: hidden;
   }
 }
+
+.profile-external-links {
+  display: flex;
+  .logo-button {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
